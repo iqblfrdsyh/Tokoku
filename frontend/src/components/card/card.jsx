@@ -8,7 +8,15 @@ const Cards = {
     return (
       <div className="w-[270px] bg-white border border-gray-200 rounded-lg shadow-md dark:border-gray-700 bg-transparent">
         <Link to="#">
-          <img className="rounded-t-lg" src={image} alt="" width={270} />
+          <div
+            className="rounded-t-lg"
+            style={{
+              backgroundImage: `url(${image})`,
+              backgroundSize: "cover",
+              backgroundPosition: "center",
+              height: "200px",
+            }}
+          ></div>
         </Link>
         <div className="p-5">
           <Link to="#">
@@ -23,7 +31,7 @@ const Cards = {
           <Link to="/keranjang">
             <Button
               buttonName="Beli"
-              extendClassNames="w-full hover:bg-gray-800 hover:bg-slate-400 hover:text-white hover:scale-[0.99] rounded-lg border-gray-400 transition"
+              extendClassNames="w-full hover:bg-gray-800 hover:bg-slate-700 hover:text-white hover:scale-[0.99] rounded-lg border-gray-400 transition"
             />
           </Link>
         </div>

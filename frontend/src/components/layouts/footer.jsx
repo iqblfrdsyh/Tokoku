@@ -1,13 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import {
-  AiOutlineFacebook,
   AiOutlineTwitter,
   AiOutlineInstagram,
   AiOutlineYoutube,
   AiFillApple,
 } from "react-icons/ai";
 import { BiLogoPlayStore } from "react-icons/bi";
+import { FaFacebookF } from "react-icons/fa";
 // import Button from "../button/button";
 
 const Footer = {
@@ -61,16 +61,16 @@ const Footer = {
               <h3 className="text-[25px] font-semibold">Follow Us on</h3>
               <div className="flex flex-wrap justify-evenly">
                 <Link to="#">
-                  <AiOutlineFacebook size={30} />
+                  <FaFacebookF size={26} color="#3b5998" />
                 </Link>
                 <Link to="#">
-                  <AiOutlineTwitter size={30} />
+                  <AiOutlineTwitter size={30} color="#00acee" />
                 </Link>
                 <Link to="#">
-                  <AiOutlineInstagram size={30} />
+                  <AiOutlineInstagram size={30} color="purple" />
                 </Link>
                 <Link to="#">
-                  <AiOutlineYoutube size={30} />
+                  <AiOutlineYoutube size={30} color="#c4302b" />
                 </Link>
               </div>
             </div>
