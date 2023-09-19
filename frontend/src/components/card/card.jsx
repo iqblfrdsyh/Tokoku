@@ -6,7 +6,7 @@ import FormInput from "../input/input";
 const Cards = {
   CardVertical: ({ productName, category, price, image }) => {
     return (
-      <div className="w-[270px] bg-white border border-gray-200 rounded-lg shadow-md dark:border-gray-700 bg-transparent">
+      <div className="w-[270px] bg-white border border-gray-200 rounded-lg shadow-md dark:border-gray-700 bg-transparent flex flex-col pb-6">
         <Link to="#">
           <div
             className="rounded-t-lg"
@@ -20,21 +20,26 @@ const Cards = {
         </Link>
         <div className="p-5">
           <Link to="#">
-            <h5 className="text-[28px] mb-1 font-bold tracking-tight text-gray-900">
-              {productName}
+            <h5 className="text-[28px] mb-1 font-bold tracking-tight text-gray-900 relative overflow-hidden whitespace-nowrap">
+              {productName.length > 20
+                ? `${productName.substring(0, 20)}...`
+                : productName}
+              <span className="absolute top-0 right-0 bg-red-500 text-white text-xs px-2 py-1 rounded-full opacity-0 group-hover:opacity-100 transition-opacity">
+                Badge
+              </span>
             </h5>
           </Link>
           <span className="border-2 border-black px-4 rounded-lg text-[15px]">
             {category}
           </span>
           <p className="mb-7 text-[20px] text-gray-700 mt-3">{price}</p>
-          <Link to="/keranjang">
-            <Button
-              buttonName="Beli"
-              extendClassNames="w-full hover:bg-gray-800 hover:bg-slate-700 hover:text-white hover:scale-[0.99] rounded-lg border-gray-400 transition"
-            />
-          </Link>
         </div>
+        <Link to="/keranjang" className="mt-auto px-3">
+          <Button
+            buttonName="Beli"
+            extendClassNames="w-full hover:bg-gray-800 hover:bg-slate-700 hover:text-white hover:scale-[0.99] rounded-lg border-gray-400 transition"
+          />
+        </Link>
       </div>
     );
   },

@@ -7,6 +7,7 @@ import Register from "./pages/register";
 import Keranjang from "./pages/keranjang";
 import MainLayout from "./components/layouts/main.layout";
 import PesananSaya from "./pages/pesananSaya";
+import ProductCategory from "./pages/product.category";
 
 function App() {
   return (
@@ -27,6 +28,10 @@ function App() {
           <Route path="login" element={<Login />} />
           <Route path="keranjang" element={<Keranjang />} />
           <Route path="pesananSaya" element={<PesananSaya />} />
+          <Route
+            path="product/category/:category"
+            element={<ProductCategory />}
+          />
           <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>

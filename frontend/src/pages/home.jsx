@@ -14,7 +14,9 @@ const Home = () => {
 
   const getProductData = async () => {
     try {
-      const response = await axios.get("https://dummyjson.com/products");
+      const response = await axios.get(
+        "https://dummyjson.com/products?limit=110"
+      );
       const productData = response.data.products;
       setProducts(productData);
     } catch (error) {
