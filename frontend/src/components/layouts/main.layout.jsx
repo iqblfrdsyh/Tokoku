@@ -12,7 +12,7 @@ const MainLayout = () => {
   return (
     <React.Fragment>
       {isPath ? <Headers.NavigationBar /> : <Headers.Header />}
-      <main className="mt-28 h-full">
+      <main className="mt-28 h-full mb-[50px]">
         {/* {children} */}
         {<Outlet />}
       </main>

@@ -1,0 +1,39 @@
+{
+    "products" : [
+        {
+            "id" : 1,
+            "title" : "Zenbook 14 Flip OLED",
+            "description" : "Tambahkan sentuhan kecemerlangan dalam hidup Anda dengan Zenbook 14 Flip OLED, laptop konvertibel yang ramping, ringan, dan ultra-serbaguna dengan layar sentuh 16:10 2,8K OLED HDR NanoEdge cantik yang memberi Anda warna hitam pekat dan warna paling hidup. Didukung oleh prosesor AMD Ryzen™ 9 5900HX terbaru, Zenbook 14 Flip OLED menghadirkan performa luar biasa untuk kinerja maksimal. Engsel ErgoLift 360° yang dirancang secara presisi memungkinkan Anda bekerja atau bermain dalam mode apa pun yang Anda inginkan — laptop, stand, tenda, tablet, atau apa pun di antaranya — dan untuk input kreatif alami, layar sentuh mendukung stylus 4096 pressure-level. Dengan Zenbook 14 Flip OLED, produktivitas Anda benar-benar dapat bersinar, di mana saja.",
+            "price" : "14.299.000",
+            "rating" : 4.7,
+            "stock" : 200,
+            "brand" : "Asus",
+            "category" : "Laptop",
+            "images" : "https://dlcdnwebimgs.asus.com/gain/b1be5f90-42f3-41a5-84e0-af1deb164349/"
+        },
+
+        {
+            "id" : 2,
+            "title" : "Vivobook14X",
+            "description" : "Jadikan dunia Anda bersinar dengan ASUS Vivobook 14X, laptop penuh fitur dengan layar yang brilian. Vivobook 14X mempermudah Anda untuk menyelesaikan sesuatu, di mana saja: segala sesuatu tentangnya telah ditingkatkan, dari AMD Ryzen™ 5000 Series Mobile Processor yang bertenaga hingga engsel 180° , warna modern, dan desain geometris yang ramping. Buat awal baru yang cerah hari ini dengan Vivobook 14X!",
+            "price" : "7.999.999",
+            "rating" : 4.7,
+            "stock" : 100,
+            "brand" : "Asus",
+            "category" : "Laptop",
+            "images" : "https://dlcdnwebimgs.asus.com/gain/dfc945a5-6c79-4a05-ad99-baac150600bd/"
+        },
+
+        {
+            "id" : 3,
+            "title" : "Zenbook Pro 16X OLED",
+            "description" : "Zenbook Pro 16X OLED adalah laptop kreator luar biasa dengan banyak fitur desain inovatif dan desain all-metal baru. Menggunakan layar sentuh 16:10 4K OLED HDR NanoEdge terdepan di dunia1,dan didukung oleh prosesor Intel®Core™ Generasi ke-12 dan GPU NVIDIA® GeForce RTX™ 3060. Mekanisme Active Aerodynamic System Ultra (AAS Ultra) yang baru menggerakkan keyboard yang dapat dimiringkan otomatis yang memastikan sudut pengetikan yang nyaman, dan sistem juga meningkatkan pendinginan sistem untuk kinerja maksimum. Ada sistem pencahayaan cerdas RGB Putih baru yang memungkinkan fitur interaktivitas cerdas. ASUS Dial yang inovatif memungkinkan kontrol ujung jari yang tepat dari parameter kreatif dalam aplikasi Adobe® sedangkan ASUS NumberPad baru yang lebih besar menampilkan umpan balik haptic dan sensitivitas tekanan yang ditingkatkan untuk entri nomor yang lebih mudah. Zenbook Pro 16X OLED mengubah apa yang seharusnya menjadi laptop kreator, dan membantu Anda meningkatkan kreativitas Anda.",
+            "price" : "49.999.000",
+            "rating" : 4.5,
+            "stock" : 50,
+            "brand" : "Asus",
+            "category" : "Laptop",
+            "images" : "https://dlcdnwebimgs.asus.com/gain/fd2fbbd0-6e19-4b9e-85e4-5b564b672789/"
+        }
+    ]
+}

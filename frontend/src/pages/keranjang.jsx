@@ -48,6 +48,13 @@ const Keranjang = () => {
             price="Rp 5.000"
             qty="10"
           />
+          <Cards.CardHorizontal
+            image="https://assets.klikindomaret.com/products/10001094/10001094_1.jpg"
+            productName="Chitato"
+            category="Food, Snack"
+            price="Rp 5.000"
+            qty="10"
+          />
         </div>
         <div>
           <Cards.CardCheckout TotalPrice="Rp 5.000" TotalQty="1" />
